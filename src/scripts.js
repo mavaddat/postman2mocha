@@ -30,6 +30,7 @@ const SUBSTITUTIONS = {
   'pm.response.to.X.Y.Z': withAwait('expect(response).to.X.Y.Z'),
   'pm.response.to.X.Y.Z()': withAwait('expect(response).to.X.Y.Z()'),
   'pm.response.to.X.Y.Z(P)': withAwait('expect(response).to.X.Y.Z(P)'),
+  
 };
 
 const visitor = {
